@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js" defer></script>
+    <title> Portfolio </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "logo">
+                <h1> NAME... </h1>
+            </div>
+            <ul>
+                <li><a href = "#about"> ABOUT </a></li>
+                <li><a href = "#portfolio"> PORTFOLIO </a></li>
+                <li><a href = "#contact"> CONTACT </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id = "hero">
+        <div class = "hero-content">
+            <h1> WELCOME TO MY PORTFOLIO </h1>
+            <p> Presenting My Work </p>
+            <a href = "#portfolio" class="cta-button"> View Portfolio </a>
+        </div>
+        <img class="profile" src="portfolio 0.png" alt="Self Picture">
+    </section>
+
+    <section id = "about">
+        <h1> ABOUT ME </h1>
+        <div class = "about-content">
+            <p> Introduction and Information </p>
+            <img class="profile1" src="portfolio 1.png" alt="Self Picture">
+        </div>
+    </section>
+
+    <section id = "portfolio">
+        <h1> MY PORTFOLIO </h1>
+        <div class = "portfolio-items">
+            <div class = "portfolio-item">
+                <img class="project" src="portfolio 2.png" alt="Project 1">
+                <h2> PROJECT 1 </h2>
+                <p> Description of the project... </p>
+            </div>
+            <div class = "portfolio-item">
+                <img class="project" src = "portfolio 2.png" alt="Project 2">
+                <h2> PROJECT 2 </h2>
+                <p> Description of the project... </p>
+            </div>
+        </div>
+    </section>
+
+    <section id = "contact">
+        <h1> CONTACT ME </h1>
+        <div class = "contact-form">
+            <form id = "contact-form">
+                <label for = "name"> Name: </label>
+                <input type = "text" id = "name" name = "name" required>
+
+                <label for = "email"> Email: </label>
+                <input type = "email" id = "email" name = "email" required>
+
+                <label for = "message"> Message: </label>
+                <textarea id = "message" name = "message" required></textarea>
+
+                <button type = "submit" class = "cta-button"> Send </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p> &copy; 2023 </p>
+        <p> NAME </p>
+    </footer>
+</body>
+</html>

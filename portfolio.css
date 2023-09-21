@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+#hero {
+    background-image: linear-gradient(-326deg, #030202 0%, #91221e 74%);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.profile{
+    display: block;
+    margin-top: 7.7vw;
+    margin-left: 7.8vw;
+    scale: 2;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+    margin-left: 70px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.hero-content p {
+    text-decoration: underline;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1vw;
+    font-size: 25px;
+}
+
+.cta-button:hover {
+    background-color: #706e6c;
+}
+
+#about {
+    padding: 100px 0;
+    text-align: center;
+    background-image: linear-gradient(-326deg, #030202 0%, #91221e 74%);
+    color: white;
+    font-size: 48px;
+}
+
+#about h1{
+    text-decoration: underline;
+}
+
+.about-content {
+    max-width: 800px;
+    max-height: 700px;
+    margin: 0;
+    padding: 10vw;
+    font-size: 30px;
+}
+
+.about-content p {
+    display: block;
+}
+
+.profile1 {
+    display: block;
+    margin-left: 60vw;
+    scale: 1.7;
+    border-radius: 100%;
+}
+
+#portfolio {
+    padding: 100px 0;
+    text-align: center;
+    background-image: linear-gradient(-326deg, #030202 0%, #91221e 74%);
+    color: white;
+    font-size: 48px;
+}
+
+#portfolio h1 {
+    text-decoration: underline;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 8vw;
+    gap: 20vw;
+}
+
+.portfolio-item h2 {
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.project {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#contact {
+    padding: 100px 0;
+    text-align: center;
+    background-image: linear-gradient(-326deg, #030202 0%, #91221e 74%);
+    color: white;
+    font-size: 48px;
+}
+
+#contact h1 {
+    text-decoration: underline;
+}
+
+.contact-form {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 100px;
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input {
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: none;
+    border-bottom: 2px solid white;
+}
+.contact-form button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.contact-form button:hover {
+    background-color: #706e6c;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px 0;
+}
